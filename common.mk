@@ -396,8 +396,7 @@ PRODUCT_PACKAGES += \
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
-    ims_ext_common.xml \
-    telephony-ext
+    ims_ext_common.xml
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
@@ -419,6 +418,12 @@ PRODUCT_SHIPPING_API_LEVEL := 25
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     device/oneplus/msm8998-common
+
+# Telephony
+PRODUCT_PACKAGES += \
+    qti-telephony-hidl-wrapper \
+    qti_telephony_hidl_wrapper.xml \
+    telephony-ext
 
 # Tetheroffload
 PRODUCT_PACKAGES += \
