@@ -393,8 +393,10 @@ PRODUCT_PACKAGES += \
     libxml2 \
     libprotobuf-cpp-full
 
+# IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
+    ims_ext_common.xml \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
